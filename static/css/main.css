@@ -1,0 +1,66 @@
+* {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.login-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-height: 2rem;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 0.1rem 0.2rem;
+  outline: none;
+  border-radius: 1rem;
+  background: transparent;
+  border: 2px solid #7289DA;
+  text-align: center;
+  color: #7289DA;
+  font-weight: 550;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.login-button:hover {
+  color: white;
+  background: #7289DA;
+}
+
+.login-button:hover .discord-logo {
+  -webkit-filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(139deg) brightness(96%) contrast(105%);
+          filter: invert(100%) sepia(0%) saturate(7489%) hue-rotate(139deg) brightness(96%) contrast(105%);
+}
+
+.login-button .discord-logo {
+  margin-left: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  -webkit-filter: invert(59%) sepia(13%) saturate(1886%) hue-rotate(190deg) brightness(90%) contrast(89%);
+          filter: invert(59%) sepia(13%) saturate(1886%) hue-rotate(190deg) brightness(90%) contrast(89%);
+}
+
+.login-button .avatar {
+  border-radius: 50%;
+  max-width: 2rem;
+  max-height: 2rem;
+  margin-left: 0.5rem;
+}
+/*# sourceMappingURL=main.css.map */

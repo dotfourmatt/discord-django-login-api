@@ -1,0 +1,25 @@
+body {
+    --text-color: #222;
+    --bkg-color: #fff;
+    background: var(--bkg-color);
+}
+body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+}
+
+h1, p {
+    color: var(--text-color);
+}
+  
+@media (prefers-color-scheme: dark) {
+    /* defaults to dark theme */
+    body {
+        --text-color: #eee;
+        --bkg-color: #121212;
+    }
+    body.light-theme {
+        --text-color: #222;
+        --bkg-color: #fff;
+    }
+}

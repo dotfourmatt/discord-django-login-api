@@ -32,12 +32,13 @@ AUTHENTICATION_BACKENDS = [
     'discordlogin.auth.DiscordAuthenticationBackend'
 ]
 
+# All found @https://discord.com/developers/applications/ under your apps "OAuth2" section, make sure to set "scopes" as "identify" only.
 DiscordOAuth2 = {
-    "CLIENT_ID": "811406354836750346",
-    "CLIENT_SECRET": "VxReFZeLvlb83eV8BM3X30ZZeOM-xieU",
+    "CLIENT_ID": "YOURR_CLIENT_ID",
+    "CLIENT_SECRET": "YOUR_SECRET_ID",
     "API_ENDPOINT": "https://discord.com/api/v8",
     "REDIRECT_URI": "http://localhost:8000/oauth2/login",
-    "DISCORD_OAUTH2_URL": "https://discord.com/api/oauth2/authorize?client_id=811406354836750346&redirect_uri=http%3A%2F%2Flocalhost%3A8000%2Foauth2%2Flogin&response_type=code&scope=identify"
+    "DISCORD_OAUTH2_URL": "YOUR_OAUTH2_URL"
 }
 
 # Application definition

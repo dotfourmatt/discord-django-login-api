@@ -21,6 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+# Regenerate this key if you wish to use this.
 SECRET_KEY = '#ndi4-#sg$*bwo3*c!=gj-ma%b(mvrctgmcizek_$znt@yuv$c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -92,7 +93,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'discordoauth2',
-        'USER': 'matthias',
+        'USER': 'admin',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432'
@@ -122,9 +123,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-AU'
+LANGUAGE_CODE = 'en-US'
 
-TIME_ZONE = 'Australia/Brisbane'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
